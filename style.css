@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;  
+}
+
+body{
+    background-color: blueviolet;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container{
+    background-color: #EAC57D;
+    text-align: center;
+    padding: 3rem 2rem;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, .5);
+    max-width: 100%;
+    width: 400px;   
+}
+
+.container h3{
+    color: #807490;
+    margin: 0;
+    opacity: .8;
+    letter-spacing: 2px;
+}
+
+.joke{
+    background-color: white;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    width: 70%;
+    box-shadow: inset 0 0 9px rgba(0, 0, 0, .5);
+    
+}
+
+.btn{
+    background-color: #523857;
+    color: #EAC57D;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 1px 20px 2px rgba(0, 0, 0, .5), 0 1px 2px 2px rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: 0;
+}
+
+.btn:active{
+    transform: scale(.98);
+}
