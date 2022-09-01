@@ -14,10 +14,12 @@ app.listen(post, ()=>{
 
 app.get('/Chuck-jokes', (req,res)=>{
     axios({
-        url:'https://api.chucknorris.io/jokes/random',
+        url:'https://backend-omega-seven.vercel.app/api/getjoke',
         method:'GET'
     }).then((resp)=>{
-        console.log(resp.data.value);
-        res.send(resp.data.value);
+       
+        res.send(resp.data[0]);
     })
 })
+
+
